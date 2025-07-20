@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['"Clash Display"', ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      "light",
+      "dark",
+      "cupcake",
+      "forest",
+      "aqua",
+      "lemonade",
+      "sunset",
+      "nord",
+    ],
+  },
+};
