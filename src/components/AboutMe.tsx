@@ -9,6 +9,7 @@ import {
   faNodeJs,
   faDocker,
   faLinux,
+  faGitAlt
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faDatabase,
@@ -26,16 +27,16 @@ export const AboutMe = () => {
     <div id="about" className="pt-28 sm:pt-20 px-2 sm:px-0">
       {/* Header */}
       <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
-        <h2 className="text-5xl font-bold text-base-content brightness-200 contrast-200">
+        <h2 className="text-5xl font-bold text-base-content">
           About Me
         </h2>
-        <p className="mt-4 sm:mt-2 text-2xl text-base-content brightness-200 contrast-200 text-center sm:text-left">
+        <p className="mt-4 sm:mt-2 text-2xl text-base-content text-center sm:text-left">
           Discover my interests and skills
         </p>
         <div className="divider w-3/4 sm:w-[40%] h-1 mx-auto sm:mx-0 divider-[base-content] mt-1" />
       </div>
 
-      {/* Content */}
+     {/* Content */}
       <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 mt-1 sm:mt-4">
         {/* Introduction */}
         <div className="w-full sm:w-1/2">
@@ -61,17 +62,17 @@ export const AboutMe = () => {
               fields I explore through CTF challenges and personal projects.
             </p>
           </div>
-        </div>
+        </div> 
 
         {/* Key Skills */}
         <div className="w-full sm:w-3/5 bg-base-content bg-opacity-20 drop-shadow-lg rounded-3xl p-3 sm:p-6">
-          <h3 className="text-lg sm:text-2xl font-semibold text-base-content brightness-200 contrast-200 mb-2 text-center sm:text-left">
+          <h3 className="text-lg sm:text-2xl font-semibold text-base-content mb-2 text-center sm:text-left">
             Key Skills
           </h3>
 
           {/* Languages & Skills */}
           <div className="mt-2 sm:mt-4">
-            <h4 className="text-base sm:text-xl font-medium text-base-content brightness-200 contrast-200 mb-1 text-center sm:text-left">
+            <h4 className="text-base sm:text-xl font-medium text-base-content mb-1 text-center sm:text-left">
               Languages & Skills
             </h4>
             <div className="flex flex-wrap gap-2 sm:gap-3 justify-center sm:justify-start">
@@ -88,7 +89,7 @@ export const AboutMe = () => {
 
           {/* Technologies */}
           <div className="mt-2 sm:mt-6">
-            <h4 className="text-base sm:text-xl font-medium text-base-content brightness-200 contrast-200 mb-1 text-center sm:text-left">
+            <h4 className="text-base sm:text-xl font-medium text-base-content mb-1 text-center sm:text-left">
               Technologies
             </h4>
             <div className="flex flex-wrap gap-2 sm:gap-3 justify-center sm:justify-start">
@@ -104,6 +105,7 @@ export const AboutMe = () => {
               <IconText text="Nginx" icon={faNetworkWired} />
               <IconText text="Kali Linux" icon={faShieldAlt} />
               <IconText text="Linux" icon={faLinux} />
+              <IconText text="Git" icon={faGitAlt} />
               <IconText text="More" icon={faEllipsisH} />
             </div>
           </div>

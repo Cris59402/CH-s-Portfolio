@@ -14,7 +14,11 @@ import {
 
 export const Experiences = () => {
   return (
-    <div id="experience" className="pt-24 sm:pt-20 px-4 sm:px-0">
+    <div
+      id="experience"
+      className="pt-24 sm:pt-20 px-4 sm:px-0
+                 mb-20 md:mb-40"  /* mai mult spațiu jos pe desktop */
+    >
       {/* Header */}
       <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
         <span className="text-4xl sm:text-5xl font-bold text-base-content brightness-200 contrast-200">
@@ -69,7 +73,7 @@ export const Experiences = () => {
 
             {/* Courses List */}
             <ul className="flex flex-col gap-2 sm:gap-3">
-              {[
+              {[ 
                 {
                   icon: FaServer,
                   text: "Backend Web Development – Udemy",
@@ -115,7 +119,7 @@ export const Experiences = () => {
                 </li>
               ))}
               {/* In Progress */}
-              {[
+              {[ 
                 {
                   icon: FaShieldAlt,
                   text: "Ethical Hacking & Cybersecurity (In Progress)",
