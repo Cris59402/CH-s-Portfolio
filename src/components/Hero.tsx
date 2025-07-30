@@ -58,7 +58,7 @@ export const Hero = () => {
       {/* Call to action */}
       <div className="flex flex-row gap-6 justify-center items-center mt-8 sm:mt-12">
         <button
-          onClick={() => jumpToDiv("contact")}
+          onClick={() => window.open("https://drive.google.com/file/d/1GRyHIIz34Ltrw7pAWpREOHeips333qPT/view?usp=drive_link", "_blank")}
           className="
             btn btn-active
             bg-base-content bg-opacity-20
@@ -68,7 +68,7 @@ export const Hero = () => {
           "
         >
           <span className="font-['Silkscreen'] text-base-content brightness-200 contrast-200 tracking-wide">
-            CONTACT ME
+             More about my CV
           </span>
         </button>
       </div>

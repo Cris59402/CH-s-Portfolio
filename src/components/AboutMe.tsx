@@ -36,33 +36,28 @@ export const AboutMe = () => {
         <div className="divider w-3/4 sm:w-[40%] h-1 mx-auto sm:mx-0 divider-[base-content] mt-1" />
       </div>
 
-     {/* Content */}
+      {/* Content */}
       <div className="flex flex-col sm:flex-row gap-2 sm:gap-8 mt-1 sm:mt-4">
         {/* Introduction */}
         <div className="w-full sm:w-1/2">
-          <h3 className="text-lg sm:text-2xl font-semibold text-base-content brightness-200 contrast-200 mb-2 text-center sm:text-left">
+          <h3 className="text-lg sm:text-2xl font-semibold text-base-content mb-2 text-center sm:text-left">
             A short introduction
           </h3>
-          <div className="mt-4 flex flex-col gap-4 text-sm sm:text-base text-base-content brightness-200 contrast-200 text-center sm:text-left">
-            <p className="text-base-content brightness-200 contrast-200">
-              I am currently a final year student at Babes-Bolyai University
-              (UBB), pursuing a degree in Mathematics and Computer Science.
+          <div className="mt-4 flex flex-col gap-4 text-sm sm:text-base text-base-content text-center sm:text-left">
+            <p>
+              I graduated from UPB ETTI with a degree in Telecommunications and Computer Science. I specialize in web and GUI application development.
             </p>
-            <p className="text-base-content brightness-200 contrast-200">
-              Over the years, I have honed my skills largely through various
-              personal projects, nurturing a strong passion for learning new
-              technologies.
+            <p>
+              As a Software Developer at a sales company, I gained production experience configuring servers and building front-end and back-end solutions using React, Electron,Javascript and Python.
             </p>
-            <p className="text-base-content brightness-200 contrast-200">
-              My primary focus lies in web development and the Rust programming
-              language, areas where I continuously strive to deepen my expertise.
+            <p>
+              I have strong communication skills and thrive in team environments, quickly adapting to challenges and collaborating effectively to deliver high-quality software.
             </p>
-            <p className="text-base-content brightness-200 contrast-200">
-              I am also interested in cybersecurity and reverse engineering,
-              fields I explore through CTF challenges and personal projects.
+            <p>
+              My key strengths include rapid problem-solving, a passion for learning new technologies, and a dedication to creating intuitive user experiences.
             </p>
           </div>
-        </div> 
+        </div>
 
         {/* Key Skills */}
         <div className="w-full sm:w-3/5 bg-base-content bg-opacity-20 drop-shadow-lg rounded-3xl p-3 sm:p-6">

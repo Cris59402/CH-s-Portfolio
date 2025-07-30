@@ -54,7 +54,7 @@ export const Contact = () => {
             </button>
 
             <button
-              onClick={() => (location.href = "https://github.com/ChristianPM33")}
+              onClick={() => (location.href = "https://github.com/Cris59402")}
               className="btn btn-active bg-base-content bg-opacity-20 drop-shadow-lg text-lg sm:text-xl border-0 flex items-center justify-center gap-2 sm:gap-3 col-span-1 sm:col-span-2"
             >
               <FontAwesomeIcon icon={faGithub} size="lg" />
@@ -63,7 +63,7 @@ export const Contact = () => {
 
             <button
               onClick={() =>
-                (location.href = "https://www.linkedin.com/in/ChristianPM33/")
+                (location.href = "https://www.linkedin.com/in/christian-paraschiv-milea-86404b242/")
               }
               className="btn btn-active bg-base-content bg-opacity-20 drop-shadow-lg text-lg sm:text-xl border-0 flex items-center justify-center gap-2 sm:gap-3 col-span-1 sm:col-span-2"
             >
@@ -73,7 +73,7 @@ export const Contact = () => {
 
             <button
               onClick={() =>
-                (location.href = "https://www.instagram.com/ChristianPM33/")
+                (location.href = "https://www.instagram.com/paraschiv_christian/")
               }
               className="btn btn-active bg-base-content bg-opacity-20 drop-shadow-lg text-lg sm:text-xl border-0 flex items-center justify-center gap-2 sm:gap-3 col-span-1 sm:col-span-2"
             >

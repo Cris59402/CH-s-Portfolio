@@ -62,7 +62,7 @@ export const Experiences = () => {
                     ETTI-UPB
                   </span>
                   <span className="text-sm sm:text-lg text-base-content brightness-200 contrast-200">
-                    Absolvent
+                    Student
                   </span>
                 </div>
               </div>

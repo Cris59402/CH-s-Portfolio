@@ -8,15 +8,13 @@ export const Projects = () => {
       desc: "Licență & ERP",
       details:
         "Un sistem ERP destinat firmelor mici de vânzări, dezvoltat ca proiect de licență. Tehnologii utilizate: React și MySQL.",
-      link: "https://example.com/project1",
     },
     {
       img: "/sauron.png",
-      title: "Cybersecurity Toolbox",
-      desc: "Toolbox Security",
+      title: "Sauron Eye Toolbox",
+      desc: "CyberSecurity",
       details:
         "O aplicație toolbox pentru securitate cibernetică, construită folosind Electron și Python, care oferă diverse unelte de audit și testare.",
-      link: "https://example.com/project2",
     },
     {
       img: "/shooter.png",
@@ -24,7 +22,6 @@ export const Projects = () => {
       desc: "Shooter Game",
       details:
         "Un shooter 3D creat în Unity și C#. Proiect în desfășurare, explorând fizica jocului și AI-ul inamicilor.",
-      link: "https://example.com/project3",
     },
   ];
 
@@ -44,12 +41,12 @@ export const Projects = () => {
       {/* Projects Grid */}
       <div className="flex flex-col gap-8 sm:flex-row sm:gap-6 mt-6">
         {projects.map((p, i) => (
-          <div key={i} className="relative w-full max-w-md sm:w-1/3 mx-auto">
-            <a
-              href={p.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full bg-base-content bg-opacity-15 hover:bg-opacity-25 transition drop-shadow-md rounded-2xl flex flex-col items-center p-6 sm:p-8"
+          <div
+            key={i}
+            className="relative w-full max-w-md sm:w-1/3 mx-auto"
+          >
+            <div
+              className="w-full bg-base-content bg-opacity-15 hover:bg-opacity-25 transition drop-shadow-md rounded-2xl flex flex-col items-center p-6 sm:p-8 cursor-default"
             >
               <img
                 src={p.img}
@@ -62,7 +59,7 @@ export const Projects = () => {
               <p className="mt-2 text-base md:text-base text-center text-base-content">
                 {p.desc}
               </p>
-            </a>
+            </div>
 
             {/* Details below card */}
             <p className="mt-4 text-sm md:text-base text-center break-words text-base-content w-full px-4">
