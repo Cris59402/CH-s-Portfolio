@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const Gradient = () => {
   // generate 100 static stars

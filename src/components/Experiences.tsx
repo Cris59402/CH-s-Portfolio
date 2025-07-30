@@ -1,6 +1,6 @@
-import React from "react";
-import sigmagroup from "/Users/cris59402/Desktop/Cod/Portofolio nou/CH's Portofolio/dist/assets/sigma_group.png";
-import etti from "/Users/cris59402/Desktop/Cod/Portofolio nou/CH's Portofolio/dist/assets/etti.png";
+
+import sigmagroup from "/sigma_group.png";
+import etti from "/etti.png";
 import {
   FaServer,
   FaLaptopCode,
