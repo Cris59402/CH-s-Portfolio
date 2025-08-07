@@ -47,7 +47,7 @@ export const Hero = () => {
       {/* Call to action */}
       <div className="flex flex-row gap-6 justify-center items-center mt-8 sm:mt-12">
         <button
-          onClick={() => window.open("https://drive.google.com/file/d/1yiYlo1DF5atFzwLCgm-KFsWtUMKPW5lQ/view?usp=drive_link", "_blank")}
+          onClick={() => window.open("https://drive.google.com/file/d/1yF1_wuBKcSiHoRSu5hcnPUZZfLb6P7ir/view?usp=drive_link", "_blank")}
           className="
             btn btn-active
             bg-base-content bg-opacity-20
